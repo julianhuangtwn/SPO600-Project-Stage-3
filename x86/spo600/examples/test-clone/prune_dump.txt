@@ -1,0 +1,12 @@
+clone-test-core.c: In function ‘convert_samples.popcnt’:
+clone-test-core.c:35:6: note: PRUNE: convert_samples.popcnt
+   35 | void convert_samples(int16_t *in, int16_t *out, int cnt) {
+      |      ^~~~~~~~~~~~~~~
+clone-test-core.c: In function ‘convert_samples.arch_x86_64_v3’:
+clone-test-core.c:35:6: note: NOPRUNE: convert_samples.arch_x86_64_v3
+clone-test-core.c: In function ‘scale_samples.popcnt’:
+clone-test-core.c:28:6: note: PRUNE: scale_samples.popcnt
+   28 | void scale_samples(int16_t *in, int16_t *out, int cnt, int volume) {
+      |      ^~~~~~~~~~~~~
+clone-test-core.c: In function ‘scale_samples.arch_x86_64_v3’:
+clone-test-core.c:28:6: note: NOPRUNE: scale_samples.arch_x86_64_v3
